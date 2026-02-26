@@ -5,4 +5,4 @@ This repository will contain all the information documents to be presented to th
 Documents are organized according to the following folder structure:
 * <BROKER_FISCALCODE>
   * <DOCUMENT_TYPE>
-    * <LANGUAGE>_<FILE_NAME>
+    * <DOC_LANGUAGE>_<DOCUMENT_TYPE>.md
