@@ -70,7 +70,7 @@ stages:
               scriptType: 'bash'
               scriptLocation: inlineScript
               inlineScript: |
-                az storage blob sync --container '$web' --account-name $(storage_account) --source '$(Pipeline.Workspace)/docs' --destination '$(blob_container_path)/'
+                az storage blob sync --container '$web' --account-name $(storage_account) --source 'docs' --destination '$(blob_container_path)/'
 
           - task: AzureCLI@1
             displayName: 'Purge CDN endpoint'
